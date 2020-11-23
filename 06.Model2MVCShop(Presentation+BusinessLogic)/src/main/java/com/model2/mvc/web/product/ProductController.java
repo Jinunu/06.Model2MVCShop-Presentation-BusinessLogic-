@@ -144,7 +144,7 @@ public class ProductController {
 	 */
 	
 	@RequestMapping("/updateProduct.do")
-	public ModelAndView updateUser( @ModelAttribute("product") Product product , HttpSession session) throws Exception{
+	public ModelAndView updateProduct( @ModelAttribute("product") Product product , HttpSession session) throws Exception{
 
 		System.out.println("/updateProduct.do");
 		//Business Logic
@@ -189,7 +189,7 @@ public class ProductController {
 	*/
 	
 	@RequestMapping("/listProduct.do")
-	public ModelAndView listUser( @RequestParam("menu") String menu ,@ModelAttribute("search") Search search , HttpSession session) throws Exception{
+	public ModelAndView listProduct( @RequestParam("menu") String menu ,@ModelAttribute("search") Search search , HttpSession session) throws Exception{
 		
 		System.out.println("/listProduct.do");
 		

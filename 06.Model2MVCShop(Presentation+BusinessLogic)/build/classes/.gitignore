@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 /com/
 /config/
 /log4j.properties
 /sql/
+=======
+<<<<<<< HEAD
+/sql/
+/com/
+=======
+/com/
+/config/
+/log4j.properties
+/sql/
+>>>>>>> refs/heads/new/dev
+>>>>>>> refs/heads/master
